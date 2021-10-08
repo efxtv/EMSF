@@ -19,3 +19,6 @@ Fastest metasploit payload generator
 
 #Step 2 Download and start
 <pre> wget https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true;cp emsf /data/data/com.termux/files/usr/bin/bash;clear;echo "use command emsf -h"  </pre>
+
+# Server most used. NCAT server index.html require
+<pre> while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</pre>
