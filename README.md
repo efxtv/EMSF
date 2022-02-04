@@ -1,6 +1,6 @@
 
 
-# EMSF
+# EMSF 2.0
 Fastest metasploit payload generator
 
 #EMSF tool is one of the most fastest tools to generate msfpayloads. Here you will get extra options to use NGROK and Localservers to share your files with your friends.
