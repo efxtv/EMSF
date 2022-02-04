@@ -11,7 +11,7 @@ Fastest metasploit payload generator
 <pre> sudo apt update; sudo apt upgrade</pre>
 
 #Step 2 Download and start
-<pre> wget https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true;sudo cp emsf /user/bin/;clear;echo "use command emsf -h"  </pre>
+<pre> curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/ </pre>
 
 
 # Steps to install emsf in Termux
@@ -20,7 +20,7 @@ Fastest metasploit payload generator
 <pre> apt update; apt upgrade</pre>
 
 #Step 2 Download and start
-<pre> wget https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true;cp emsf /data/data/com.termux/files/usr/bin/bash;clear;echo "use command emsf -h"  </pre>
+<pre> curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true -s;chmod +x emsf;mv emsf ../usr/bin/ </pre>
 
 # Server most used. NCAT server index.html require
 <pre> while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</pre> Support for the project
