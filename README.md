@@ -5,7 +5,7 @@
 # Install Ngrok, create patload and more using EMSF tool by EFX Tv
 Fastest metasploit payload generator
 
-Version 2.1
+Version 2.0
 
 #EMSF tool is one of the most fastest tools to generate msfpayloads. Here you will get extra options to use NGROK and Localservers to share your files with your friends.
 
