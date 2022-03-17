@@ -1,6 +1,7 @@
 
 
-# EMSF 2.0
+# EMSF tool
+# Version 2.0
 # EMSF tool by Efx Tv
 # Install Ngrok, create patload and more using EMSF tool by EFX Tv
 Fastest metasploit payload generator
