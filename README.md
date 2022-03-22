@@ -14,7 +14,7 @@ Supported by: Termux and Kali Linux
 **Requirements:-**<br>
 <a href="https://youtu.be/IU26QC3NDvo">Metasploit-Framework</a> > Apktools > Zipalign > Keytool > <a href="https://uk2blogger.blogspot.com/2022/03/how-to-bind-apk-payload-in-termux-with.html">Java</a>
 
-Install and exploit
+Install and exploit<br>
 Version 2.0
 
 EMSF tool is one of the fastest tools to generate msfvenom payload. Here you will get extra options to use NGROK and Localservers to share your files with your friends, Quick netcat connections, local PHP, Python, Ruby server.
