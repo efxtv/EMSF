@@ -64,7 +64,7 @@ It will generate 3 signed apk. Keep the latest one. Cheers<br>
 **Step 1** Open APK Editor<br>
 **Step 2** Select apk file<br>
 **Step 3** Click on Common EDIT<br>
-**Step 4** Select Minimum SDK Version 15 Maximum SDK Version 22<br>
+**Step 4** Select Minimum SDK 15 Maximum SDK 22<br>
 **Step 5** Click on Save<br>
 **Step 6** Open file manager and look for APK Editor/temp folder <br>
 
