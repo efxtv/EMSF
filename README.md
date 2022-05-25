@@ -23,22 +23,22 @@ EMSF tool is one of the fastest tools to generate msfvenom payload. Here you wil
 # Installation:- Ubuntu/Kali-linux/Parrot-OS
 
 #Step 1 UPDATE UPGRADE
-<pre> sudo apt update; sudo apt upgrade</pre>
+<pre><code>sudo apt update; sudo apt upgrade</code></pre>
 
 #Step 2 Download and start
-<pre> curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/ </pre>
+<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/</code></pre>
 
 
 # # Installation:- in Termux
 
 #Step 1 UPDATE UPGRADE
-<pre> pkg update; pkg upgrade</pre>
+<pre><code>pkg update; pkg upgrade</code></pre>
 
 #Step 2 Download and start
-<pre> curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true -s;chmod +x emsf;mv emsf ../usr/bin/ </pre>
+<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true -s;chmod +x emsf;mv emsf ../usr/bin/</code></pre>
 
 # Server most used. NCAT server index.html require
-<pre> while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</pre>
+<pre><code>while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</code></pre>
 
 # Sign apk using <a href="https://t.me/efxtv/269">APK Tool</a><br>
 **Method 1 Steps to sign with APK Editor**<br>
