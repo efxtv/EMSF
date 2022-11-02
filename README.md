@@ -26,7 +26,7 @@ EMSF tool is one of the fastest tools to generate msfvenom payload. Here you wil
 <pre><code>sudo apt update; sudo apt upgrade</code></pre>
 
 #Step 2 Download and start
-<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/</code></pre>
+<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/  </code></pre>
 
 
 # # Installation:- in Termux
