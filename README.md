@@ -35,7 +35,7 @@ EMSF tool is one of the fastest tools to generate msfvenom payload. Here you wil
 <pre><code>pkg update; pkg upgrade</code></pre>
 
 #Step 2 Download and start
-<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/termux/emsf?raw=true -s;chmod +x emsf;mv emsf ../usr/bin/</code></pre>
+<pre><code>curl -L -o $PWD/emsf https://raw.githubusercontent.com/efxtv/EMSF/main/termux/emsf -s;chmod +x emsf;mv emsf ../usr/bin/</code></pre>
 
 # Server most used. NCAT server index.html require
 <pre><code>while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</code></pre>
