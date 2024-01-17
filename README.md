@@ -7,7 +7,7 @@ Supported by: Termux and Kali Linux
 <li>Quick exploit (android+bind, windows, Linux py, ruby, sh)</li>
 <li>Install Ngrok</li>
 <li>OVPN (For desktop-based linux</li>
-  <li><a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en_IN&gl=US">Open VPN Client android</a> </li>
+<li><a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn&hl=en_IN&gl=US">Open VPN Client android</a> </li>
 <li>Support Ngrok Http Payload Share</li>
 <li>Uses MSFvenom To Generate and Bind APK</li></ul><br>
 
@@ -23,19 +23,31 @@ EMSF tool is one of the fastest tools to generate msfvenom payload. Here you wil
 # Installation:- Ubuntu/Kali-Linux/Parrot-OS
 
 #Step 1 UPDATE UPGRADE
-<pre><code>sudo apt update; sudo apt upgrade</code></pre>
+```
+sudo apt update; sudo apt upgrade
+```
 
 #Step 2 Download and start
-<pre><code>curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/  </code></pre>
+```
+curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/  
+```
 
 
 # # Installation:- in Termux
 
 #Step 1 UPDATE UPGRADE
-<pre><code>pkg update; pkg upgrade</code></pre>
+```
+pkg update; pkg upgrade
+```
+```
+pkg install wget curl
+termux-setup-storage
+```
 
 #Step 2 Download and start
-<pre><code>cd;curl -L -o $PREFIX/bin/emsf https://raw.githubusercontent.com/efxtv/EMSF/main/termux/emsf -s;chmod +x $PREFIX/bin/emsf</code></pre>
+```
+curl -L -o $PREFIX/bin/emsf https://raw.githubusercontent.com/efxtv/EMSF/main/termux/emsf -s;chmod +x $PREFIX/bin/emsf
+```
 
 # Server most used. NCAT server index.html require
 <pre><code>while true; do printf 'HTTP/1.1 200 OK\n\n%s' "$(cat index.html)" | netcat -l 8888; done</code></pre>
