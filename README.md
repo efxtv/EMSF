@@ -29,7 +29,7 @@ sudo apt update; sudo apt upgrade
 
 #Step 2 Download and start
 ```
-curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x emsf;sudo cp emsf /usr/bin/  
+curl -L -o /usr/bin/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true -s;sudo chmod +x /usr/bin/emsf
 ```
 
 
@@ -37,11 +37,7 @@ curl -L -o $PWD/emsf https://github.com/efxtv/EMSF/blob/main/Linux/emsf?raw=true
 
 #Step 1 UPDATE UPGRADE
 ```
-pkg update; pkg upgrade
-```
-```
-pkg install wget curl
-termux-setup-storage
+pkg update; pkg upgrade;pkg install wget curl ; termux-setup-storage
 ```
 
 #Step 2 Download and start
