@@ -16,7 +16,7 @@ Supported by: Termux and Kali Linux
 
 Install and exploit<br><br>
 
-Version 2.4
+Version 2.5
 
 EMSF tool is one of the fastest tools to generate msfvenom payload. Here you will get extra options to use NGROK and Local servers to share your files with your friends, Quick Netcat connections, and local PHP, Python, and Ruby servers.
 
